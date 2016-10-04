@@ -6,7 +6,12 @@
   </head>
   <body>
 <p>
-  <%= output %>
+  <% if paragraph > 1%>
+  <%= output * paragraph %>
+  <% else %>
+  <%=output%>
+  <%end%>
 </p>
+
   </body>
 </html>

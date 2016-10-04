@@ -1,6 +1,7 @@
 require 'erb'
 
 lipsum_wanted = ARGV[0]
+paragraph= ARGV[1].to_i
 
 puts lipsum_wanted
 
